@@ -2,8 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Lato", "Noto Sans JP", "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", "YuGothic", "ヒラギノ角ゴシック", "Hiragino Sans", "メイリオ", "Meiryo", sans-serif;
+  padding-top: 84px;
+}
+
+#top:before {
+  content: "";
+  display: block;
+  padding-top: 50%;
+}
+
+#top-image {
+  background-image: url(./img/top.jpg);
+  background-position: center center;
+  background-size: cover;
 }
 
 .open {
