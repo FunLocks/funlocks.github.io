@@ -7,7 +7,10 @@ module.exports = {
   },
   purge: ['./*.html'],
   theme: {
-    extend: {}
+    extend: {},
+    minWidth: {
+      '40': '10rem',
+    }
   },
   variants: {},
   plugins: []
