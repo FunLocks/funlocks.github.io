@@ -26,3 +26,14 @@ body {
 .open {
   display: block;
 }
+
+.timeline-content:before {
+  content: "";
+  width: 0.8rem;
+  height: 0.8rem;
+  background: teal;
+  position: absolute;
+  left: 10.7rem;
+  top: 0.4rem;
+  border-radius: 100%;
+}
