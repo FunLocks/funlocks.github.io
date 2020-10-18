@@ -866,6 +866,10 @@ video {
   fill: currentColor;
 }
 
+.stroke-current {
+  stroke: currentColor;
+}
+
 .text-center {
   text-align: center;
 }
@@ -882,6 +886,18 @@ video {
   color: rgba(74, 85, 104, var(--text-opacity));
 }
 
+.text-red-200 {
+  --text-opacity: 1;
+  color: #fed7d7;
+  color: rgba(254, 215, 215, var(--text-opacity));
+}
+
+.text-red-400 {
+  --text-opacity: 1;
+  color: #fc8181;
+  color: rgba(252, 129, 129, var(--text-opacity));
+}
+
 .text-blue-100 {
   --text-opacity: 1;
   color: #ebf8ff;
@@ -894,16 +910,16 @@ video {
   color: rgba(190, 227, 248, var(--text-opacity));
 }
 
-.text-blue-400 {
-  --text-opacity: 1;
-  color: #63b3ed;
-  color: rgba(99, 179, 237, var(--text-opacity));
-}
-
 .text-blue-500 {
   --text-opacity: 1;
   color: #4299e1;
   color: rgba(66, 153, 225, var(--text-opacity));
+}
+
+.text-blue-600 {
+  --text-opacity: 1;
+  color: #3182ce;
+  color: rgba(49, 130, 206, var(--text-opacity));
 }
 
 .text-blue-700 {
@@ -924,6 +940,12 @@ video {
   color: rgba(66, 153, 225, var(--text-opacity));
 }
 
+.hover\:text-blue-700:hover {
+  --text-opacity: 1;
+  color: #2b6cb0;
+  color: rgba(43, 108, 176, var(--text-opacity));
+}
+
 .underline {
   text-decoration: underline;
 }
@@ -942,6 +964,25 @@ video {
 
 .z-50 {
   z-index: 50;
+}
+
+.transform {
+  --transform-translate-x: 0;
+  --transform-translate-y: 0;
+  --transform-rotate: 0;
+  --transform-skew-x: 0;
+  --transform-skew-y: 0;
+  --transform-scale-x: 1;
+  --transform-scale-y: 1;
+  transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+}
+
+.transition {
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
 }
 
 @-webkit-keyframes spin {
@@ -1039,7 +1080,7 @@ body {
   content: "";
   width: 0.8rem;
   height: 0.8rem;
-  background: teal;
+  background: #fc8181;
   position: absolute;
   left: 10.7rem;
   top: 0.4rem;
@@ -1121,10 +1162,10 @@ body {
     }
   }
 
-  .md\:border-blue-400 {
+  .md\:border-blue-300 {
     --border-opacity: 1;
-    border-color: #63b3ed;
-    border-color: rgba(99, 179, 237, var(--border-opacity));
+    border-color: #90cdf4;
+    border-color: rgba(144, 205, 244, var(--border-opacity));
   }
 
   .md\:border-l-4 {
