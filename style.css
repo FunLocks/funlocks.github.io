@@ -632,10 +632,10 @@ video {
   background-color: rgba(237, 242, 247, var(--bg-opacity));
 }
 
-.bg-teal-500 {
+.bg-blue-500 {
   --bg-opacity: 1;
-  background-color: #38b2ac;
-  background-color: rgba(56, 178, 172, var(--bg-opacity));
+  background-color: #4299e1;
+  background-color: rgba(66, 153, 225, var(--bg-opacity));
 }
 
 .hover\:bg-white:hover {
@@ -650,10 +650,10 @@ video {
   border-color: rgba(255, 255, 255, var(--border-opacity));
 }
 
-.border-teal-400 {
+.border-blue-400 {
   --border-opacity: 1;
-  border-color: #4fd1c5;
-  border-color: rgba(79, 209, 197, var(--border-opacity));
+  border-color: #63b3ed;
+  border-color: rgba(99, 179, 237, var(--border-opacity));
 }
 
 .hover\:border-transparent:hover {
@@ -882,34 +882,34 @@ video {
   color: rgba(74, 85, 104, var(--text-opacity));
 }
 
-.text-teal-100 {
+.text-blue-100 {
   --text-opacity: 1;
-  color: #e6fffa;
-  color: rgba(230, 255, 250, var(--text-opacity));
+  color: #ebf8ff;
+  color: rgba(235, 248, 255, var(--text-opacity));
 }
 
-.text-teal-200 {
+.text-blue-200 {
   --text-opacity: 1;
-  color: #b2f5ea;
-  color: rgba(178, 245, 234, var(--text-opacity));
+  color: #bee3f8;
+  color: rgba(190, 227, 248, var(--text-opacity));
 }
 
-.text-teal-400 {
+.text-blue-400 {
   --text-opacity: 1;
-  color: #4fd1c5;
-  color: rgba(79, 209, 197, var(--text-opacity));
+  color: #63b3ed;
+  color: rgba(99, 179, 237, var(--text-opacity));
 }
 
-.text-teal-500 {
+.text-blue-500 {
   --text-opacity: 1;
-  color: #38b2ac;
-  color: rgba(56, 178, 172, var(--text-opacity));
+  color: #4299e1;
+  color: rgba(66, 153, 225, var(--text-opacity));
 }
 
-.text-teal-700 {
+.text-blue-700 {
   --text-opacity: 1;
-  color: #2c7a7b;
-  color: rgba(44, 122, 123, var(--text-opacity));
+  color: #2b6cb0;
+  color: rgba(43, 108, 176, var(--text-opacity));
 }
 
 .hover\:text-white:hover {
@@ -918,10 +918,10 @@ video {
   color: rgba(255, 255, 255, var(--text-opacity));
 }
 
-.hover\:text-teal-500:hover {
+.hover\:text-blue-500:hover {
   --text-opacity: 1;
-  color: #38b2ac;
-  color: rgba(56, 178, 172, var(--text-opacity));
+  color: #4299e1;
+  color: rgba(66, 153, 225, var(--text-opacity));
 }
 
 .underline {
@@ -1121,10 +1121,10 @@ body {
     }
   }
 
-  .md\:border-teal-400 {
+  .md\:border-blue-400 {
     --border-opacity: 1;
-    border-color: #4fd1c5;
-    border-color: rgba(79, 209, 197, var(--border-opacity));
+    border-color: #63b3ed;
+    border-color: rgba(99, 179, 237, var(--border-opacity));
   }
 
   .md\:border-l-4 {
