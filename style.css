@@ -731,7 +731,7 @@ video {
 }
 
 .text-sm {
-  font-size: 0.875rem;
+  font-size: .875rem;
 }
 
 .text-lg {
@@ -748,10 +748,6 @@ video {
 
 .text-4xl {
   font-size: 2.25rem;
-}
-
-.text-6xl {
-  font-size: 4rem;
 }
 
 .leading-none {
@@ -1083,6 +1079,14 @@ body {
     flex: 1 1 0%;
   }
 
+  .sm\:text-base {
+    font-size: 1rem;
+  }
+
+  .sm\:text-6xl {
+    font-size: 4rem;
+  }
+
   .sm\:mb-0 {
     margin-bottom: 0;
   }
@@ -1207,6 +1211,14 @@ body {
     .lg\:container {
       max-width: 1280px;
     }
+  }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+  }
+
+  .lg\:text-8xl {
+    font-size: 6rem;
   }
 }
 
