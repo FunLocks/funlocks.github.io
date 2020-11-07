@@ -803,6 +803,10 @@ video {
   margin-bottom: 3rem;
 }
 
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
 .max-w-screen-md {
   max-width: 768px;
 }
@@ -868,6 +872,10 @@ video {
 
 .top-0 {
   top: 0;
+}
+
+.left-0 {
+  left: 0;
 }
 
 .fill-current {
@@ -1082,6 +1090,11 @@ body {
   background-image: url(./img/top.jpg);
   background-position: center center;
   background-size: cover;
+}
+
+.iframewrap {
+  height: 0;
+  padding-top: 56.25%;
 }
 
 .open {
