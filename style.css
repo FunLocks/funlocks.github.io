@@ -807,6 +807,10 @@ video {
   margin-bottom: 4rem;
 }
 
+.max-w-xs {
+  max-width: 20rem;
+}
+
 .max-w-screen-md {
   max-width: 768px;
 }
@@ -973,10 +977,6 @@ video {
 
 .w-3 {
   width: 0.75rem;
-}
-
-.w-1\/2 {
-  width: 50%;
 }
 
 .w-4\/5 {
