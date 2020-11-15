@@ -42,3 +42,9 @@ body {
   top: 0.4rem;
   border-radius: 100%;
 }
+
+.sponsors {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  @apply gap-4;
+}
