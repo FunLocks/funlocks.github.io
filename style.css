@@ -1126,8 +1126,8 @@ body {
 .sponsors {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-  grid-gap: 1rem;
-  gap: 1rem;
+  grid-gap: 2rem;
+  gap: 2rem;
 }
 
 @media (min-width: 640px) {
