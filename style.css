@@ -862,6 +862,10 @@ video {
   padding-bottom: 8rem;
 }
 
+.pr-4 {
+  padding-right: 1rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
